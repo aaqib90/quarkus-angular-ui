@@ -1,6 +1,6 @@
 {
-    "name": "quarkus-react-ui",
-    "description": "web app made of create-react-app UI + Node API",
+    "name": "quarkus-angular-ui",
+    "description": "web app made of angular UI + Node API",
     "scripts": {
     },
     "env": {
