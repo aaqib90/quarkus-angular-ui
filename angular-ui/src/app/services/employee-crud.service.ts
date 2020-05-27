@@ -11,8 +11,14 @@ export class EmployeeCrudService {
 
   constructor(private http: HttpClient,) { }
   
-  employeeList(){
-    return this.http.get<any>(`${environment.apiUrl}`)
+  employeeList(dbName){
+    let url = null;
+    if(dbName == 'mongodb') {
+      url = `${environment.mongodbUrl}`;
+    } else {
+      url = `${environment.mysqlUrl}`;
+    }
+    return this.http.get<any>(url)
     .pipe(      
        map(data => {          
           return data;
@@ -23,8 +29,15 @@ export class EmployeeCrudService {
        );
   }
 
-  employeeAdd(req){
-    return this.http.post<any>(`${environment.apiUrl}`, req)
+  employeeAdd(dbName, req){
+    let url = null;
+    if(dbName == 'mongodb') {
+      url = `${environment.mongodbUrl}`;
+    } else {
+      url = `${environment.mysqlUrl}`;
+    }
+    return this.http.post<any>(url, req)
+    //return this.http.post<any>(`${environment.mysqlUrl}`, req)
     .pipe(      
        map(data => {          
           return data;
@@ -35,9 +48,16 @@ export class EmployeeCrudService {
        );
   }
 
-  employeeDelete(id){
+  employeeDelete(dbName, id){
+    let url = null;
+    if(dbName == 'mongodb') {
+      url = `${environment.mongodbUrl}`;
+    } else {
+      url = `${environment.mysqlUrl}`;
+    }
+
     if(confirm("Are you sure?")){
-    return this.http.delete(`${environment.apiUrl}/${id}`)
+    return this.http.delete(url+`/${id}`)
     .pipe(      
        map(data => {          
           return data;
@@ -48,8 +68,14 @@ export class EmployeeCrudService {
        );}
   }
 
-  employeeUpdate(id, req){
-    return this.http.put<any>(`${environment.apiUrl}/${id}`, req)
+  employeeUpdate(dbName, id, req){
+    let url = null;
+    if(dbName == 'mongodb') {
+      url = `${environment.mongodbUrl}`;
+    } else {
+      url = `${environment.mysqlUrl}`;
+    }
+    return this.http.put<any>(url+`/${id}`, req)
     .pipe(      
        map(data => {          
           return data;

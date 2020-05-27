@@ -3,9 +3,13 @@
     <div class="bodyContainer">
         <div class="container">
             <h1>Welcome To Quarkus UI</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere accusamus impedit, modi omnis eos mollitia doloribus culpa earum. Ad assumenda enim alias quae at nemo optio quod porro suscipit. Voluptatem facere accusamus impedit,
-                modi omnis eos mollitia doloribus culpa earum. </p>
-            <p><a (click)="showPopup()" class="addEmployee">Add Employee</a></p>
+            <p>This poc is developed on Quarkus Micro-services and Angular UI. There are two microservices of Employee record, one is integrated with MongoDB and another one is integrated with MySQL. This application is deployed in Heroku with automatic CI/CD pipelines.. </p>
+        <div class="dataButton">
+            <a (click)="switchTab('mysql')" [class]="activeMysqlClass">MySQL</a>
+            <a (click)="switchTab('mongodb')" [class]="activeMongodbClass">MongoDB</a>
+        </div>
+        <div>
+            <p class="add"><a (click)="showPopup()" class="addEmployee">Add Employee</a></p>
             <div class="dataTable">
                 <div class="row header">
                     <div class="col">ID</div>
@@ -27,6 +31,7 @@
                     </div>
                 </div>
             </div>
+        </div>
             <div class="footer">© Copyright 2020. Prolifics</div>
         </div>
     </div>

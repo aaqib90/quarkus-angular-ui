@@ -149,13 +149,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
-    function AppComponent_div_23_Template(rf, ctx) {
+    function AppComponent_div_29_Template(rf, ctx) {
       if (rf & 1) {
         var _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 16);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 11);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span");
 
@@ -167,7 +167,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 11);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span");
 
@@ -179,7 +179,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 11);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "span");
 
@@ -191,7 +191,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 11);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "span");
 
@@ -199,9 +199,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 17);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_23_Template_a_click_16_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_29_Template_a_click_16_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4);
 
           var employee_r2 = ctx.$implicit;
@@ -211,13 +211,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return ctx_r3.updateEmpPopup(employee_r2);
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "img", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "img", 18);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 17);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_23_Template_a_click_18_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_29_Template_a_click_18_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4);
 
           var employee_r2 = ctx.$implicit;
@@ -227,7 +227,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return ctx_r5.deleteEmployee(employee_r2.id);
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "img", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "img", 19);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -253,7 +253,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function AppComponent_div_26_div_11_span_1_Template(rf, ctx) {
+    function AppComponent_div_32_div_11_span_1_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
 
@@ -263,11 +263,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function AppComponent_div_26_div_11_Template(rf, ctx) {
+    function AppComponent_div_32_div_11_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 33);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AppComponent_div_26_div_11_span_1_Template, 2, 0, "span", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AppComponent_div_32_div_11_span_1_Template, 2, 0, "span", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -281,7 +281,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function AppComponent_div_26_div_16_span_1_Template(rf, ctx) {
+    function AppComponent_div_32_div_16_span_1_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
 
@@ -291,11 +291,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function AppComponent_div_26_div_16_Template(rf, ctx) {
+    function AppComponent_div_32_div_16_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 33);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AppComponent_div_26_div_16_span_1_Template, 2, 0, "span", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AppComponent_div_32_div_16_span_1_Template, 2, 0, "span", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -309,7 +309,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function AppComponent_div_26_div_21_span_1_Template(rf, ctx) {
+    function AppComponent_div_32_div_21_span_1_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
 
@@ -319,11 +319,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function AppComponent_div_26_div_21_Template(rf, ctx) {
+    function AppComponent_div_32_div_21_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 33);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AppComponent_div_26_div_21_span_1_Template, 2, 0, "span", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AppComponent_div_32_div_21_span_1_Template, 2, 0, "span", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -337,15 +337,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function AppComponent_div_26_Template(rf, ctx) {
+    function AppComponent_div_32_Template(rf, ctx) {
       if (rf & 1) {
         var _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 20);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 21);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 22);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h3");
 
@@ -353,9 +353,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "form", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "form", 23);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngSubmit", function AppComponent_div_26_Template_form_ngSubmit_5_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngSubmit", function AppComponent_div_32_Template_form_ngSubmit_5_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
 
           var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -363,9 +363,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return ctx_r12.addOrUpdate();
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 24);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 25);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "label");
 
@@ -373,13 +373,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "input", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "input", 26);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, AppComponent_div_26_div_11_Template, 2, 1, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, AppComponent_div_32_div_11_Template, 2, 1, "div", 27);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 25);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "label");
 
@@ -387,13 +387,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "input", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "input", 28);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, AppComponent_div_26_div_16_Template, 2, 1, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, AppComponent_div_32_div_16_Template, 2, 1, "div", 27);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 25);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "label");
 
@@ -401,17 +401,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "input", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "input", 29);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](21, AppComponent_div_26_div_21_Template, 2, 1, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](21, AppComponent_div_32_div_21_Template, 2, 1, "div", 27);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 30);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "button", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "button", 31);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_26_Template_button_click_23_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_32_Template_button_click_23_listener() {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
 
           var ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -423,7 +423,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "button", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "button", 32);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Submit");
 
@@ -475,6 +475,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.title = 'quarkus-ui';
         this.alertBox = false;
         this.updateForm = false;
+        this._mysql = 'mysql';
+        this._mongodb = 'mongodb';
+        this.currentTab = 'mysql';
         this.empDetailsForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroup"]({
           empname: new _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required]),
           empID: new _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required]),
@@ -485,14 +488,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(AppComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          this.showEmployeeList();
+          this.showEmployeeList(this._mysql);
+          this.activeMysqlClass = "active";
+        }
+      }, {
+        key: "switchTab",
+        value: function switchTab(val) {
+          if (val === 'mongodb') {
+            this.currentTab = 'mongodb';
+            this.showEmployeeList(this._mongodb);
+            this.activeMongodbClass = "active";
+            this.activeMysqlClass = "";
+          } else {
+            this.currentTab = 'mysql';
+            this.showEmployeeList(this._mysql);
+            this.activeMysqlClass = "active";
+            this.activeMongodbClass = "";
+          }
         }
       }, {
         key: "showEmployeeList",
-        value: function showEmployeeList() {
+        value: function showEmployeeList(dbName) {
           var _this = this;
 
-          this.empCrud.employeeList().subscribe(function (data) {
+          this.empCrud.employeeList(dbName).subscribe(function (data) {
             _this.employeesList = data.data;
             console.log(_this.employeesList);
           }, function (error) {
@@ -526,13 +545,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             "profile_image": ''
           };
           console.log("request", request);
+          var dbName = this.currentTab;
 
           if (this.empDetailsForm.valid) {
-            this.empCrud.employeeAdd(request).subscribe(function (employeeAddResponse) {
+            this.empCrud.employeeAdd(dbName, request).subscribe(function (employeeAddResponse) {
               console.log("employeeAddResponse", employeeAddResponse);
               console.log("Form Submitted!");
 
-              _this2.showEmployeeList();
+              _this2.showEmployeeList(dbName);
 
               _this2.closePopup();
 
@@ -572,11 +592,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           console.log("ID", id);
 
           if (this.empDetailsForm.valid) {
-            this.empCrud.employeeUpdate(id, request).subscribe(function (employeeUpdateResponse) {
+            this.empCrud.employeeUpdate(this.currentTab, id, request).subscribe(function (employeeUpdateResponse) {
               console.log("employeeUpdateResponse", employeeUpdateResponse);
               console.log("Updated Submitted!");
 
-              _this3.showEmployeeList();
+              _this3.showEmployeeList(_this3.currentTab);
 
               _this3.closePopup();
 
@@ -602,10 +622,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function deleteEmployee(id) {
           var _this4 = this;
 
-          this.empCrud.employeeDelete(id).subscribe(function (employeeDeleteResponse) {
+          this.empCrud.employeeDelete(this.currentTab, id).subscribe(function (employeeDeleteResponse) {
             console.log(employeeDeleteResponse);
 
-            _this4.showEmployeeList();
+            _this4.showEmployeeList(_this4.currentTab);
 
             return employeeDeleteResponse;
           }, function (error) {
@@ -629,9 +649,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: AppComponent,
       selectors: [["app-root"]],
-      decls: 27,
-      vars: 2,
-      consts: [[1, "wrapper"], [1, "header"], ["src", "assets/logo.png"], [1, "bodyContainer"], [1, "container"], [1, "addEmployee", 3, "click"], [1, "dataTable"], [1, "row", "header"], [1, "col"], [1, "tableHolder"], ["class", "row", 4, "ngFor", "ngForOf"], [1, "footer"], ["class", "popBox", 4, "ngIf"], [1, "row"], ["href", "#", 3, "click"], ["src", "assets/edit.png", "alt", "Edit Row", "title", "Edit Row"], ["src", "assets/delete.png", "alt", "Delete Row", "title", "Delete Row"], [1, "popBox"], [1, "innerBox"], [1, "addEmp"], [3, "formGroup", "ngSubmit"], [1, "formContainer"], [1, "form-group"], ["formControlName", "empID", "type", "text"], ["class", "errorBox", 4, "ngIf"], ["formControlName", "empname", "type", "text"], ["formControlName", "empage", "type", "text"], [1, "form-group", "textCenter"], [1, "btn", 3, "click"], ["type", "submit", 1, "btn", "main", 3, "disabled"], [1, "errorBox"], [4, "ngIf"]],
+      decls: 33,
+      vars: 6,
+      consts: [[1, "wrapper"], [1, "header"], ["src", "assets/logo.png"], [1, "bodyContainer"], [1, "container"], [1, "dataButton"], [3, "click"], [1, "add"], [1, "addEmployee", 3, "click"], [1, "dataTable"], [1, "row", "header"], [1, "col"], [1, "tableHolder"], ["class", "row", 4, "ngFor", "ngForOf"], [1, "footer"], ["class", "popBox", 4, "ngIf"], [1, "row"], ["href", "#", 3, "click"], ["src", "assets/edit.png", "alt", "Edit Row", "title", "Edit Row"], ["src", "assets/delete.png", "alt", "Delete Row", "title", "Delete Row"], [1, "popBox"], [1, "innerBox"], [1, "addEmp"], [3, "formGroup", "ngSubmit"], [1, "formContainer"], [1, "form-group"], ["formControlName", "empID", "type", "text"], ["class", "errorBox", 4, "ngIf"], ["formControlName", "empname", "type", "text"], ["formControlName", "empage", "type", "text"], [1, "form-group", "textCenter"], [1, "btn", 3, "click"], ["type", "submit", 1, "btn", "main", 3, "disabled"], [1, "errorBox"], [4, "ngIf"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -654,65 +674,83 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere accusamus impedit, modi omnis eos mollitia doloribus culpa earum. Ad assumenda enim alias quae at nemo optio quod porro suscipit. Voluptatem facere accusamus impedit, modi omnis eos mollitia doloribus culpa earum. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "This poc is developed on Quarkus Micro-services and Angular UI. There are two microservices of Employee record, one is integrated with MongoDB and another one is integrated with MySQL. This application is deployed in Heroku with automatic CI/CD pipelines.. ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 5);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 6);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_a_click_10_listener() {
+            return ctx.switchTab("mysql");
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "MySQL");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_a_click_12_listener() {
+            return ctx.switchTab("mongodb");
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "MongoDB");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_a_click_16_listener() {
             return ctx.showPopup();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Add Employee");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Add Employee");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 9);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "ID");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 8);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Employee Name");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "ID");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Age");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 8);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Action");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 9);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](23, AppComponent_div_23_Template, 20, 3, "div", 10);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Employee Name");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "\xA9 Copyright 2020. Prolifics");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Age");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Action");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](29, AppComponent_div_29_Template, 20, 3, "div", 13);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -720,13 +758,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](26, AppComponent_div_26_Template, 27, 5, "div", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "\xA9 Copyright 2020. Prolifics");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](32, AppComponent_div_32_Template, 27, 5, "div", 15);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
 
         if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.activeMysqlClass);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.activeMongodbClass);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](17);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.employeesList);
 
@@ -907,8 +963,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       _createClass(EmployeeCrudService, [{
         key: "employeeList",
-        value: function employeeList() {
-          return this.http.get("".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].apiUrl)).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
+        value: function employeeList(dbName) {
+          var url = null;
+
+          if (dbName == 'mongodb') {
+            url = "".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].mongodbUrl);
+          } else {
+            url = "".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].mysqlUrl);
+          }
+
+          return this.http.get(url).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
             return data;
           }, Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function (error) {
             return error;
@@ -916,8 +980,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }, {
         key: "employeeAdd",
-        value: function employeeAdd(req) {
-          return this.http.post("".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].apiUrl), req).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
+        value: function employeeAdd(dbName, req) {
+          var url = null;
+
+          if (dbName == 'mongodb') {
+            url = "".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].mongodbUrl);
+          } else {
+            url = "".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].mysqlUrl);
+          }
+
+          return this.http.post(url, req) //return this.http.post<any>(`${environment.mysqlUrl}`, req)
+          .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
             return data;
           }, Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function (error) {
             return error;
@@ -925,9 +998,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }, {
         key: "employeeDelete",
-        value: function employeeDelete(id) {
+        value: function employeeDelete(dbName, id) {
+          var url = null;
+
+          if (dbName == 'mongodb') {
+            url = "".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].mongodbUrl);
+          } else {
+            url = "".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].mysqlUrl);
+          }
+
           if (confirm("Are you sure?")) {
-            return this.http["delete"]("".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].apiUrl, "/").concat(id)).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
+            return this.http["delete"](url + "/".concat(id)).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
               return data;
             }, Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function (error) {
               return error;
@@ -936,8 +1017,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }, {
         key: "employeeUpdate",
-        value: function employeeUpdate(id, req) {
-          return this.http.put("".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].apiUrl, "/").concat(id), req).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
+        value: function employeeUpdate(dbName, id, req) {
+          var url = null;
+
+          if (dbName == 'mongodb') {
+            url = "".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].mongodbUrl);
+          } else {
+            url = "".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].mysqlUrl);
+          }
+
+          return this.http.put(url + "/".concat(id), req).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
             return data;
           }, Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function (error) {
             return error;
@@ -1000,7 +1089,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var environment = {
       production: false,
-      apiUrl: 'https://quarkus-mysql-api.herokuapp.com/api/v1/employees'
+      mysqlUrl: 'https://quarkus-mysql-api.herokuapp.com/api/v1/employees',
+      mongodbUrl: 'https://quarkusapi.herokuapp.com/api/v1/employees'
     };
     /*
      * For easier debugging in development mode, you can import the following file

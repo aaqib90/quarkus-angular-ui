@@ -22,15 +22,38 @@ export class AppComponent implements OnInit {
   alertBox: boolean = false;
   updateForm: boolean = false;
 
+  _mysql :string = 'mysql';
+  _mongodb : string = 'mongodb';
+
+  currentTab: string = 'mysql';
+
+  activeMongodbClass:string;
+  activeMysqlClass:string;
+
   constructor(public empCrud: EmployeeCrudService) { }
 
   ngOnInit() {
-    this.showEmployeeList();
+    this.showEmployeeList(this._mysql);
+    this.activeMysqlClass = "active";
+  }
+
+  switchTab(val) {
+    if(val === 'mongodb') {
+      this.currentTab = 'mongodb';
+      this.showEmployeeList(this._mongodb);
+      this.activeMongodbClass = "active";
+      this.activeMysqlClass = "";
+    } else {
+      this.currentTab ='mysql';
+      this.showEmployeeList(this._mysql);
+      this.activeMysqlClass = "active";
+      this.activeMongodbClass = "";
+    }
   }
 
 
-  showEmployeeList() {
-    this.empCrud.employeeList().subscribe((data) => {
+  showEmployeeList(dbName) {
+    this.empCrud.employeeList(dbName).subscribe((data) => {
       this.employeesList = data.data;
       console.log(this.employeesList);
     }, error => {
@@ -66,11 +89,13 @@ export class AppComponent implements OnInit {
     }
     console.log("request", request);
 
+    const dbName = this.currentTab;
+
     if (this.empDetailsForm.valid) {
-      this.empCrud.employeeAdd(request).subscribe(employeeAddResponse => {
+      this.empCrud.employeeAdd(dbName, request).subscribe(employeeAddResponse => {
         console.log("employeeAddResponse", employeeAddResponse);
         console.log("Form Submitted!");
-        this.showEmployeeList();
+        this.showEmployeeList(dbName);
         this.closePopup();
         return employeeAddResponse;
       }, error => {
@@ -103,10 +128,10 @@ export class AppComponent implements OnInit {
     console.log("request", request);
     console.log("ID", id);
     if (this.empDetailsForm.valid) {
-      this.empCrud.employeeUpdate(id, request).subscribe(employeeUpdateResponse => {
+      this.empCrud.employeeUpdate(this.currentTab ,id, request).subscribe(employeeUpdateResponse => {
         console.log("employeeUpdateResponse", employeeUpdateResponse);
         console.log("Updated Submitted!");
-        this.showEmployeeList();
+        this.showEmployeeList(this.currentTab);
         this.closePopup();
         this.updateForm = false;
         return employeeUpdateResponse;
@@ -127,9 +152,9 @@ export class AppComponent implements OnInit {
   }
 
   deleteEmployee(id) {
-    this.empCrud.employeeDelete(id).subscribe(employeeDeleteResponse => {
+    this.empCrud.employeeDelete(this.currentTab, id).subscribe(employeeDeleteResponse => {
       console.log(employeeDeleteResponse);
-      this.showEmployeeList();
+      this.showEmployeeList(this.currentTab);
       return employeeDeleteResponse;
     }, error => {
       console.log(error);

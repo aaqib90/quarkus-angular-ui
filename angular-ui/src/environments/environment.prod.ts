@@ -1,4 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://dummy.restapiexample.com/api/v1'
+  mysqlUrl: 'https://quarkus-mysql-api.herokuapp.com/api/v1/employees',
+  mongodbUrl: 'https://quarkusapi.herokuapp.com/api/v1/employees'
 };

@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://quarkus-mysql-api.herokuapp.com/api/v1/employees'
+  mysqlUrl: 'https://quarkus-mysql-api.herokuapp.com/api/v1/employees',
+  mongodbUrl: 'https://quarkusapi.herokuapp.com/api/v1/employees'
 };
 
 /*
