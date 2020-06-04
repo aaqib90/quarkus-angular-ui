@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="dashboard">
+
+    </div>
+    <nav class="navbar">
+        <button (click)="navClick($event)" value="mandatory">
+            Mandatory
+        </button>
+        <button (click)="navClick($event)" value="optional">
+            Optional
+        </button>
+        <button (click)="navClick($event)" value="potential">
+            Potential
+        </button>
+        <button (click)="navClick($event)" value="Issue Category">
+            Issue Category
+        </button>
+        <button (click)="navClick($event)" value="information">
+            Information
+        </button>
+        <button (click)="navClick($event)" value="cloud mandatory">
+            Cloud mandatory
+        </button>
+    </nav>
+    <div class="issueCategoryTable">
+        <h3>Total count is - {{issueDataTotalCount}}</h3>
+        <table>
+            <thead>
+                <th>
+                    <tr>Name</tr>
+                </th>
+            </thead>
+            
+            <tbody>
+                <tr *ngFor="let obj of issueData">
+                    <td><h5>{{ obj  }}</h5></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
