@@ -11,9 +11,13 @@ export class ApplistComponent implements OnInit {
   constructor( public allappService: AllappService) {}
   issueData: any = [];
   issueDataTotalCount: Number = 0;
+  parentAppData: any = [];
 
   ngOnInit(): void {
     this.generateIssueTable('mandatory');
+    this.allappService.parentAppList().subscribe((data) => {
+      this.parentAppData = data;
+    })
   }
 
   generateIssueTable (issueName) {

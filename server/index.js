@@ -81,29 +81,57 @@ if (!isDev && cluster.isMaster) {
         const db = client.db(dbName);
         const collection = db.collection('dashboard');
 
-        collection.find({}).toArray((err, data) => {
+        collection.aggregate(
+          [
+            {
+              '$project': {
+                'Issue Category': 1, 
+                'Parent Application': 1
+              }
+            }, {
+              '$group': {
+                '_id': '$Parent Application', 
+                'issueCategory': {
+                  '$push': '$Issue Category'
+                }
+              }
+            }
+          ]
+        ).toArray((err, data) => {
           if(err) {
             res.send(err);
           }
-          let parentApp = data.map((o) => o["Parent Application"]);
-          let issueCategory = data.map(o => o["Issue Category"]);
+          const dd = data.map((d) => {
+            // const mandatoryLength = d.issueCategory.map()
+            return {
+              parentAppName: d._id,
+              mandatory: d.issueCategory.filter((o) => o == "mandatory").length,
+              optional: d.issueCategory.filter((o) => o == "optional").length,
+              potential: d.issueCategory.filter((o) => o == "potential").length,
+              issueCategory: d.issueCategory.filter((o) => o == "Issue Category").length,
+              information: d.issueCategory.filter((o) => o == "Information").length,
+              cloudMandatory: d.issueCategory.filter((o) => o == "Cloud mandatory").length,
+            }
+          })
+          // let parentApp = data.map((o) => o["Parent Application"]);
+          // let issueCategory = data.map(o => o["Issue Category"]);
           
-          parentApp = [... new Set(parentApp)];
+          // parentApp = [... new Set(parentApp)];
 
-          issueCategory = [... new Set(issueCategory)];
+          // issueCategory = [... new Set(issueCategory)];
 
-          //console.log("parentApp ", parentApp);
-          let result = [];
+          // //console.log("parentApp ", parentApp);
+          // let result = [];
 
-          for(let i=0;i<parentApp.length;i++) {
-            var t = {
-              parentAppName : parentApp[i],
-            }
-            for(let j=0; j< issueCategory.length;j++){
-              t[issueCategory[j]] = 0
-            }
-            result.push(t)
-          }
+          // for(let i=0;i<parentApp.length;i++) {
+          //   var t = {
+          //     parentAppName : parentApp[i],
+          //   }
+          //   for(let j=0; j< issueCategory.length;j++){
+          //     t[issueCategory[j]] = 0
+          //   }
+          //   result.push(t)
+          // }
           // for(let i=0; i< issueCategory.length;i++){
           //   result
           // }
@@ -121,7 +149,7 @@ if (!isDev && cluster.isMaster) {
           //   }
            
           // })
-          res.send(result);
+          res.send(dd);
           //closeClient();
         })
       }

@@ -21,4 +21,18 @@ import { map, catchError } from 'rxjs/operators';
           }))
            );
       }
+
+      parentAppList(){
+        let url = 'https://quarkus-angularui.herokuapp.com/allapp-dashboard';
+        
+        return this.http.get<any>(url)
+        .pipe(      
+           map(data => {          
+              return data;
+          },
+          catchError(error => {
+              return error;
+          }))
+           );
+      }
   }

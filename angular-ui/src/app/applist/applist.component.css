@@ -16,3 +16,7 @@
     overflow: auto;
     background-color: white;
 }
+
+#parentAppTableHeader {
+    background-color: beige;
+}

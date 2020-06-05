@@ -1,6 +1,32 @@
 <div class="container">
     <div class="dashboard">
-
+        <div class="issueCategoryTable">
+            <table>
+                <thead id="parentAppTableHeader">
+                    <!-- <th> -->
+                        <td>Parent App Name</td>
+                        <td>Mandatory</td>
+                        <td>Optional</td>
+                        <td>Potential</td>
+                        <td>Issue Category</td>
+                        <td>Information</td>
+                        <td>Cloud mandatory</td>
+                    <!-- </th> -->
+                </thead>
+                
+                <tbody>
+                    <tr *ngFor="let obj of parentAppData">
+                        <td><h5>{{ obj.parentAppName  }}</h5></td>
+                        <td><h5>{{ obj.mandatory  }}</h5></td>
+                        <td><h5>{{ obj.optional  }}</h5></td>
+                        <td><h5>{{ obj.potential  }}</h5></td>
+                        <td><h5>{{ obj.issueCategory  }}</h5></td>
+                        <td><h5>{{ obj.information  }}</h5></td>
+                        <td><h5>{{ obj.cloudMandatory  }}</h5></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <nav class="navbar">
         <button (click)="navClick($event)" value="mandatory">
@@ -27,7 +53,7 @@
         <table>
             <thead>
                 <th>
-                    <tr>Name</tr>
+                    <tr>Title</tr>
                 </th>
             </thead>
             
